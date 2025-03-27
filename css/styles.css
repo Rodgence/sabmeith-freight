@@ -1,0 +1,84 @@
+ /* Card hover effect styles */
+ .feature-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.icon-container {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.feature-title {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.feature-text {
+    color: #666;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.why {
+    color: #9c212d;
+}
+/* Our Clients start */
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: -30px;
+  }
+  .carousel-control-next {
+    right: -30px;
+  }
+}
+
