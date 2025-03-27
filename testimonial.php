@@ -12,7 +12,7 @@
             <div class="testimonial-item p-4 my-5">                     
                 <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>                     
                 <div class="d-flex align-items-end mb-4">                         
-                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/1.png" style="width: 80px; height: 80px;">                         
+                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/4.png" style="width: 80px; height: 80px;">                         
                     <div class="ms-4">                             
                         <h5 class="mb-1">Reload Logistics</h5>                             
                         <p class="m-0">Manager</p>                         
@@ -23,7 +23,7 @@
             <div class="testimonial-item p-4 my-5">                     
                 <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>                     
                 <div class="d-flex align-items-end mb-4">                         
-                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/2.png" style="width: 80px; height: 80px;">                         
+                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/1.png" style="width: 80px; height: 80px;">                         
                     <div class="ms-4">                             
                         <h5 class="mb-1">Ali Group</h5>                             
                         <p class="m-0">Finance</p>                         
@@ -34,7 +34,7 @@
             <div class="testimonial-item p-4 my-5">                     
                 <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>                     
                 <div class="d-flex align-items-end mb-4">                         
-                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/3.png" style="width: 80px; height: 80px;">                         
+                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/5.png" style="width: 80px; height: 80px;">                         
                     <div class="ms-4">                             
                         <h5 class="mb-1">POLYTRA</h5>                             
                         <p class="m-0">Operational Manager</p>                         
@@ -45,7 +45,7 @@
             <div class="testimonial-item p-4 my-5">                     
                 <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>                     
                 <div class="d-flex align-items-end mb-4">                         
-                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/4.png" style="width: 80px; height: 80px;">                         
+                    <img class="img-fluid flex-shrink-0" src="img/clients/testimonials/3.png" style="width: 80px; height: 80px;">                         
                     <div class="ms-4">                             
                         <h5 class="mb-1">Impala</h5>                             
                         <p class="m-0">manager</p>                         
