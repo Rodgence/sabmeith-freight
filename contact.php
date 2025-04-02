@@ -1,5 +1,17 @@
 <?php
     include("includes/header.php");
+    
+    // Check for success or error messages from form submission
+    $success_message = '';
+    $error_message = '';
+    
+    if (isset($_GET['success']) && $_GET['success'] == '1') {
+        $success_message = "Your message has been sent successfully! We'll get back to you soon.";
+    } elseif (isset($_GET['error']) && $_GET['error'] == '1') {
+        $error_message = "There was an error sending your message. Please try again later.";
+    } elseif (isset($_GET['error']) && $_GET['error'] == '2') {
+        $error_message = "Please fill all the required fields and accept the consent.";
+    }
 ?>
 
     <!-- Page Header Start -->
@@ -144,6 +156,18 @@
       <div class="col-lg-6">
         <div class="contact-form-container p-4 bg-light rounded">
           <h3 class="mb-4">Send Us a Message</h3>
+          
+          <?php if (!empty($success_message)): ?>
+            <div class="alert alert-success" role="alert">
+                <?php echo $success_message; ?>
+            </div>
+          <?php endif; ?>
+          
+          <?php if (!empty($error_message)): ?>
+            <div class="alert alert-danger" role="alert">
+                <?php echo $error_message; ?>
+            </div>
+          <?php endif; ?>
           
           <form id="contactForm" action="mail/contact_process.php" method="POST">
             <div class="row">

@@ -1,5 +1,17 @@
 <?php
     include("includes/header.php");
+    
+    // Check for success or error messages from form submission
+    $success_message = '';
+    $error_message = '';
+    
+    if (isset($_GET['success']) && $_GET['success'] == '1') {
+        $success_message = "Your inquiry has been sent successfully! We'll get back to you soon.";
+    } elseif (isset($_GET['error']) && $_GET['error'] == '1') {
+        $error_message = "There was an error sending your inquiry. Please try again later.";
+    } elseif (isset($_GET['error']) && $_GET['error'] == '2') {
+        $error_message = "Please fill all the required fields.";
+    }
 ?>
 
 <!-- Page Header Start -->
@@ -29,10 +41,10 @@
     <!-- Introduction or Description -->
     <div class="row mb-5">
       <div class="col-12">
-        <h2 class="mb-4 text-center">We’d Love to Hear from You</h2>
+        <h2 class="mb-4 text-center">We'd Love to Hear from You</h2>
         <p class="text-center">
           Have questions about our services or need a custom solution? Fill out the form below, and our team at
-          <strong>Sabmeith Freight Limited</strong> will get back to you promptly. We’re here to help you streamline
+          <strong>Sabmeith Freight Limited</strong> will get back to you promptly. We're here to help you streamline
           logistics, optimize costs, and grow your business.
         </p>
       </div>
@@ -42,7 +54,19 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="bg-light p-4 rounded shadow-sm">
-          <form action="#" method="POST">
+          <?php if (!empty($success_message)): ?>
+            <div class="alert alert-success" role="alert">
+                <?php echo $success_message; ?>
+            </div>
+          <?php endif; ?>
+          
+          <?php if (!empty($error_message)): ?>
+            <div class="alert alert-danger" role="alert">
+                <?php echo $error_message; ?>
+            </div>
+          <?php endif; ?>
+          
+          <form action="mail/inquiry_process.php" method="POST">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Your Name</label>

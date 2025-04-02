@@ -32,6 +32,10 @@
             
           </div>
           <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Business Hours</h4>
+            <p class="mb-2">Monday-Friday: 8:00AM - 6:00PM</p>
+            <p class="mb-4">Saturday: 9:00AM - 1:00PM</p>
+            
             <h4 class="text-light mb-4">Newsletter</h4>
             <p>Subscribe to our newsletter for the latest logistics updates.</p>
             <div class="position-relative mx-auto" style="max-width: 400px;">
