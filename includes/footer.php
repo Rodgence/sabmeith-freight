@@ -11,7 +11,7 @@
             <p class="mb-2"><i class="fa fa-phone me-3"></i><a href="tel:+255654417003">+255 654 417 003</a></p>
             <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:info@sabmeithfreight.com">info@sabmeithfreight.com</a></p>
             <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/sabmeithfreight_tz?igsh=bGFwOXZsczlkejlm&utm_source=qr"><i class="fab fa-instagram"></i></a>
               <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
               <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
               <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -29,7 +29,7 @@
             <a class="btn btn-link" href="about.php">About Us</a>
             <a class="btn btn-link" href="contact.php">Contact Us</a>
             <a class="btn btn-link" href="inquiry.php">Inquiry</a>
-            
+            <a class="btn btn-link" href="sitemap.php">Sitemap</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Business Hours</h4>
@@ -115,5 +115,25 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sabmeith Freight",
+  "url": "https://sabmeithfreight.co.tz",
+  "logo": "https://sabmeithfreight.co.tz/img/logo.png",
+  "description": "Providing logistics, clearing and forwarding, freight services in Tanzania",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plot 161/1 Kilwa Road, Kurasini",
+    "addressLocality": "Dar es Salaam",
+    "addressRegion": "Temeke",
+    "addressCountry": "Tanzania"
+  },
+  "telephone": "+255775999000",
+  "sameAs": ["https://facebook.com/sabmeithfreight", "https://linkedin.com/company/sabmeithfreight"]
+}
+</script>
 </body>
 </html>
